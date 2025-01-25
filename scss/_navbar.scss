@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #212529;
+    padding: 10px 20px;
+}
+
+.navbar-brand img {
+    max-height: 200px;
+    width: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #edb552;
+    font-size: 16px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}

@@ -1,0 +1,11 @@
+.btn-primary {
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+}
+
+.btn-primary:hover {
+  background-color: #5548d6;
+  border-color: #5548d6;
+}
+
+/*# sourceMappingURL=buttons.css.map */
