@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+  color: #212529;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+.titulo-texto {
+  font-weight: bold;
+}
+
+.texto p {
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+.shadow {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+  background-color: #212529;
+  padding: 10px 20px;
+}
+
+.navbar-brand img {
+  max-height: 200px;
+  width: auto;
+}
+
+.navbar-nav .nav-link {
+  color: #edb552;
+  font-size: 16px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.logo {
+  max-height: 0px;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+}
+
+.btn-primary {
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+}
+
+.btn-primary:hover {
+  background-color: #5548d6;
+  border-color: #5548d6;
+}
+
+.contenedor-servicios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.servicio .imagen-servicio-individual img {
+  max-width: 100%;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.servicio-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #edb552;
+  color: #300d28;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.footer h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #300d28;
+  margin-bottom: 15px;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.intro-contenido {
+  background-color: #f7eeaa;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-contenido h1 {
+  font-size: 32px;
+  color: #212529;
+}
+
+.intro-contenido h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustar videos para que sean responsivos */
+.video {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-section {
+  background-color: #f7eeaa;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.intro-acerca {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f7eeaa;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.intro-acerca h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #212529;
+}
+.intro-acerca h3 {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.nuestra-historia {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 40px;
+  max-width: 800px;
+  text-align: center;
+  line-height: 1.8;
+}
+.nuestra-historia h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.nuestra-historia p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
+  margin: auto;
+  padding: 20px;
+}
+
+.equipo {
+  text-align: center;
+  padding: 40px 20px;
+}
+.equipo h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.equipo .integrantes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.equipo .integrante {
+  text-align: center;
+  width: 150px;
+}
+.equipo img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+.equipo p {
+  font-size: 14px;
+  color: #555;
+}
+
+.frase-motivacional-equipo {
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.frase-motivacional-equipo p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.intro-contacto {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f7eeaa;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.intro-contacto h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #212529;
+}
+.intro-contacto h3 {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.intro-contacto img {
+  max-width: 150px;
+  height: auto;
+  margin: 20px auto;
+}
+
+.texto-formulario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.texto-formulario form {
+  width: 50%;
+}
+.texto-formulario form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+.texto-formulario form input, .texto-formulario form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.texto-formulario form input[type=submit] {
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.texto-formulario form input[type=submit]:hover {
+  background-color: #5548d6;
+}
+.texto-formulario p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.great-features {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  border-radius: 10px;
+}
+.great-features h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #212529;
+}
+.great-features ul {
+  list-style: none;
+  padding: 0;
+}
+.great-features ul li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+.great-features ul li strong {
+  color: #212529;
+}
+
+/*# sourceMappingURL=style.css.map */

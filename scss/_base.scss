@@ -19,6 +19,14 @@ p {
     color: #555;
 }
 
+.titulo-texto {
+    font-weight: bold;
+}
+
+.texto p {
+    line-height: 1.4; // Ajustable!
+}
+
 .container {
     max-width: 1200px;
 }

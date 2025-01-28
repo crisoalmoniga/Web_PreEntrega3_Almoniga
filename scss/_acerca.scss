@@ -1,0 +1,96 @@
+
+.intro-acerca {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f7eeaa;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+        color: #212529;
+    }
+
+    h3 {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 20px;
+    }
+}
+
+.nuestra-historia {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 40px;
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.8;
+
+    h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    p {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+        text-align: justify;
+        margin: auto;
+        padding: 20px;
+    }
+}
+
+.equipo {
+    text-align: center;
+    padding: 40px 20px;
+
+    h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .integrantes {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .integrante {
+        text-align: center;
+        width: 150px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        color: #555;
+    }
+}
+
+.frase-motivacional-equipo {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+    p {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+        font-style: italic;
+    }
+}
